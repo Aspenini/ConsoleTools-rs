@@ -1,0 +1,24 @@
+[package]
+name = "stfschk"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "A library-first STFS filesystem checker and verifier"
+license-file = "LICENSE.txt"
+readme = "README.md"
+repository.workspace = true
+keywords = ["xbox", "xbox-360", "stfs", "xcontent"]
+categories = ["command-line-utilities", "filesystem"]
+
+[lib]
+name = "stfschk"
+path = "src/lib.rs"
+
+[[bin]]
+name = "stfschk"
+path = "src/main.rs"
+
+[dependencies]
+rsa = "0.9.8"
+sha1 = { workspace = true, features = ["oid"] }

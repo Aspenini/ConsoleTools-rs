@@ -1,0 +1,24 @@
+# Rust workspace
+/target/
+**/target/
+**/*.rs.bk
+
+# Nested crate lockfiles (workspace uses the root Cargo.lock)
+crates/*/Cargo.lock
+
+# Local tool outputs when running binaries from the repo
+out.xbe
+*.iso.old
+
+# Debug symbols left next to binaries on Windows
+*.pdb
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

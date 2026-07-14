@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/extract-xiso-rs",
+    "crates/orbis-unpkg",
+    "crates/stfschk-rs",
+    "crates/xbedump-rs",
+]
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.85"
+repository = "https://github.com/Aspenini/ConsoleTools-rs"
+authors = ["Aspenini"]
+
+[workspace.dependencies]
+num-bigint = "0.4.6"
+sha1 = "0.10.6"
+tempfile = "3.20.0"
+
+[profile.release]
+lto = true

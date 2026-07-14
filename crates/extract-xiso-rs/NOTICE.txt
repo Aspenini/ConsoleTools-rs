@@ -1,0 +1,13 @@
+extract-xiso Rust rewrite
+
+Original extract-xiso:
+Copyright (c) 2003 in <in@fishtank.com>
+All rights reserved.
+
+Rust rewrite:
+Copyright (c) 2026 Aspenini
+
+This product includes software developed by in <in@fishtank.com>.
+
+This project is a Rust rewrite of the original extract-xiso utility and is
+distributed under the BSD 4-Clause License. See LICENSE for the complete terms.

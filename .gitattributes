@@ -1,0 +1,11 @@
+# Normalize line endings for the whole workspace
+* text=auto eol=lf
+
+# Keep Windows batch files CRLF if any appear later
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary Xbox / image artifacts
+*.xbe binary
+*.iso binary
+*.pdb binary

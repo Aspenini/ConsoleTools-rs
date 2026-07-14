@@ -1,0 +1,13 @@
+[package]
+name = "extract-xiso"
+version = "0.1.2"
+edition.workspace = true
+rust-version.workspace = true
+description = "An xdvdfs .iso (Xbox ISO) file extraction and creation tool"
+repository.workspace = true
+license-file = "LICENSE.TXT"
+authors.workspace = true
+readme = "README.md"
+
+[lints.rust]
+unsafe_code = "forbid"

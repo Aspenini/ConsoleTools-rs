@@ -1,0 +1,27 @@
+[package]
+name = "xbedump"
+version = "0.1.2"
+edition.workspace = true
+rust-version.workspace = true
+description = "A library and command-line tool for inspecting, validating, and signing Xbox XBE images"
+license-file = "LICENSE.txt"
+repository.workspace = true
+authors.workspace = true
+readme = "README.md"
+keywords = ["xbox", "xbe", "executable", "parser"]
+categories = ["command-line-utilities", "parser-implementations"]
+
+[lib]
+name = "xbedump"
+path = "src/lib.rs"
+
+[[bin]]
+name = "xbe"
+path = "src/bin/xbe.rs"
+
+[dependencies]
+num-bigint.workspace = true
+sha1.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

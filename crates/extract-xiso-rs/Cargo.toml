@@ -1,6 +1,6 @@
 [package]
 name = "extract-xiso"
-version = "0.1.2"
+version = "0.1.3"
 edition.workspace = true
 rust-version.workspace = true
 description = "An xdvdfs .iso (Xbox ISO) file extraction and creation tool"

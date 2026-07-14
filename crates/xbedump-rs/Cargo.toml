@@ -1,6 +1,6 @@
 [package]
 name = "xbedump"
-version = "0.1.2"
+version = "0.1.3"
 edition.workspace = true
 rust-version.workspace = true
 description = "A library and command-line tool for inspecting, validating, and signing Xbox XBE images"

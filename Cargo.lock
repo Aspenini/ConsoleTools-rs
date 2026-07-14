@@ -130,7 +130,7 @@ dependencies = [
 
 [[package]]
 name = "extract-xiso"
-version = "0.1.2"
+version = "0.1.3"
 
 [[package]]
 name = "fastrand"
@@ -289,7 +289,7 @@ checksum = "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50"
 
 [[package]]
 name = "orbis-unpkg"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "aes",
  "flate2",
@@ -484,7 +484,7 @@ dependencies = [
 
 [[package]]
 name = "stfschk"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "rsa",
  "sha1",
@@ -561,7 +561,7 @@ dependencies = [
 
 [[package]]
 name = "xbedump"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "num-bigint",
  "sha1",
